@@ -67,6 +67,11 @@ export const languages: ISkill[] = [
         level: '80%',
         Icon: BsCircleFill
     },
+    {
+        name: 'Bootstrap',
+        level: '70%',
+        Icon: BsCircleFill
+    },
 ]
 
 export const tools: ISkill[] = [

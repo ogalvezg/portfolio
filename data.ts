@@ -112,7 +112,7 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill
     },
     {
-        name: 'Figma',
+        name: 'Scrum',
         level: '80%',
         Icon: BsCircleFill
     },

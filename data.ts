@@ -1,4 +1,4 @@
-import {IService, ISkill} from './type'
+import {IProject, IService, ISkill} from './type'
 import {RiComputerLine} from 'react-icons/ri'
 import {FaDatabase} from 'react-icons/fa'
 import {BsCircleFill, BsClipboardData} from 'react-icons/bs'
@@ -115,5 +115,15 @@ export const tools: ISkill[] = [
         name: 'Scrum',
         level: '80%',
         Icon: BsCircleFill
+    },
+]
+export const projects:IProject[] = [
+    {
+        name:'',
+        description:'',
+        deployed_url:'',
+        project_url:'',
+        category: [''],
+        key_techs: ['']
     },
 ]

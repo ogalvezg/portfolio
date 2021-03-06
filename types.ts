@@ -24,4 +24,4 @@ export interface IProject {
     key_techs: string[];
 }
 
-export type Category = 'Front-end' | 'Data Analysis' | 'BI' | 'react' | 'python' | 'SQL' | 'JS' | 'sass' | 'Tableau' | 'MySQL' | 'PostgrSQL';
+export type Category = 'Front-end' | 'Data Analysis' | 'BI' | 'React' | 'Python' | 'SQL' | 'JS' | 'Sass' | 'Tableau' | 'MySQL' | 'PostgrSQL';

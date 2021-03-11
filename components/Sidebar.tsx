@@ -10,7 +10,7 @@ const Sidebar = () => {
     const { theme, setTheme } = useTheme();
 
     const changeTheme = () => {
-        setTheme(theme==='light' ? 'dark' : 'light')
+        setTheme(theme ==='light' ? 'dark' : 'light')
     }
 
     return (
@@ -23,20 +23,20 @@ const Sidebar = () => {
                 <span className="text-green">Omar</span> Galvez
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-                Front-end, Data Analyst & BI
+                Junior Front-End, <br /> Data Analyst & BI
             </p>
             <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 <GiTie className="w-6 h-6" /> Download Resume
             </a>
             {/* social icons */}
             <div className="flex justify-around mx-auto my-5 text-green md:w-full">
-                <a href="">
+                <a href="https://github.com/ogalvezg">
                     <FiGlobe className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://github.com/ogalvezg">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://public.tableau.com/profile/omar.galvez4225#!/">
                     <SiTableau className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>

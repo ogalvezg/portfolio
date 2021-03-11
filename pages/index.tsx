@@ -9,7 +9,8 @@ const index = () => {
 			<h5 className='my-3 font-medium'>
 				I'm actually studing Python for Data Science and Machine Lerning.
 				I have 3+ years of experience processing and managing data using SQL.
-				I'm as well a junior frontend developer.
+				I'm as well a junior frontend developer. <br />
+				I'm a self-motivated, organize and commited individual. As well I'm team oriented person with a good understanding of Agile concepts.
 			</h5>
 			<div className='p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{marginLeft:'-1.5rem', marginRight:'-1.5rem'}}>
 				<h6 className='my-3 text-xl font-bold tracking-wide'>My Skills</h6>

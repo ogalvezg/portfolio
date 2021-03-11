@@ -2,6 +2,8 @@ import {IProject, IService, ISkill} from './types'
 import {RiComputerLine} from 'react-icons/ri'
 import {FaDatabase} from 'react-icons/fa'
 import {BsCircleFill, BsClipboardData} from 'react-icons/bs'
+import {FcSmartphoneTablet, FcComboChart} from 'react-icons/fc'
+import {GiHistogram} from 'react-icons/gi'
 
 export const services:IService[] = [
     {
@@ -10,9 +12,14 @@ export const services:IService[] = [
         about: 'I can build beautiful and scalable SPA using <b> HTML</b>, <b>CSS</b> and <b>React.js</b>'
     },
     {
+        Icon: FcSmartphoneTablet,
+        title: 'Frontend Development',
+        about: 'Implemented websites from concept to deployment with a mobile first approach'
+    },
+    {
         Icon: FaDatabase,
         title: 'Data Analysis',
-        about: 'lorem bla bla bla',
+        about: 'Ad hoc reporting, creating autonomous reports using real-time data for supporting business decision making',
     },
     {
         Icon: BsClipboardData,
@@ -20,17 +27,12 @@ export const services:IService[] = [
         about: 'Analysis of Data to get the best out of your business and helping to improve the results'
     },
     {
-        Icon: RiComputerLine,
+        Icon: FcComboChart,
         title:'Data Analysis',
-        about:'lorem bla bla bla',
+        about:'From concept to deployment with a mobile first approach. Lorem  projects.',
     },
     {
-        Icon: RiComputerLine,
-        title: 'Frontend Development',
-        about: 'I can build beautiful and scalable SPA using <b> HTML</b>, <b>CSS</b> and <b>React.js</b>'
-    },
-    {
-        Icon: BsClipboardData,
+        Icon: GiHistogram,
         title: 'Business Intelligence',
         about: 'Analysis of Data to get the best out of your business and helping to improve the results'
     },
@@ -76,16 +78,6 @@ export const languages: ISkill[] = [
 
 export const tools: ISkill[] = [
     {
-        name: 'VS Code',
-        level: '70%',
-        Icon: BsCircleFill
-    },
-    {
-        name: 'GitHub',
-        level: '70%',
-        Icon: BsCircleFill
-    },
-    {
         name: 'MySQL',
         level: '80%',
         Icon: BsCircleFill
@@ -124,7 +116,7 @@ export const projects:IProject[] = [
         image_path:'/images/omnifood-muckup.png',
         deployed_url:'https://ogalvezg.github.io/omnifood-muckup/',
         github_url:'https://github.com/ogalvezg/omnifood-muckup',
-        category: ['Front-end'],
+        category: ['Front-End'],
         key_techs: ['HTML', 'CSS', 'JS', 'Jquery'],
     },
     {
@@ -133,17 +125,17 @@ export const projects:IProject[] = [
         image_path:'/images/iban-maya.png',
         deployed_url:'https://ibantattoo.com/',
         github_url:'https://github.com/ogalvezg/IbanTattoo',
-        category: ['Front-end'],
-        key_techs: ['HTML', 'CSS', 'JS'],
+        category: ['Front-End'],
+        key_techs: ['HTML', 'CSS Grid', 'JS'],
     },
     {
-        name:'Natours',
-        description:'Website creating using Sass',
-        image_path:'/images/natours.png',
-        deployed_url:'https://ogalvezg.github.io/Natours/#',
-        github_url:'https://github.com/ogalvezg/Natours',
-        category: ['Front-end'],
-        key_techs: ['HTML', 'Sass'],
+        name:'Real Estate Landing Page',
+        description:'Mockup webpage of a Real Estate Company created with CSS Grid',
+        image_path:'/images/nexter-web.png',
+        deployed_url:'https://ogalvezg.github.io/nexter-web/',
+        github_url:'https://github.com/ogalvezg/nexter-web/tree/master',
+        category: ['Front-End'],
+        key_techs: ['Sass', 'CSS Grid'],
     },
     {
         name:'Startup Expansion Analytics',
@@ -165,11 +157,11 @@ export const projects:IProject[] = [
     },
     {
         name:'Cryptocurrency Tracker',
-        description:' Crypto Tracker App made with React using Next.js and CSS Flexbox',
+        description:' Crypto Tracker App made with React using Next.js and CSS Flexbox. Just for tablets and desktop version.',
         image_path:'/images/crypto-tracker.png',
         deployed_url:'https://crypto-tracker-gray-one.vercel.app/',
         github_url:'https://github.com/ogalvezg/crypto-tracker',
-        category: ['Data Analysis'],
+        category: ['React'],
         key_techs: ['React', 'Next.js']
     },
     {
@@ -187,7 +179,7 @@ export const projects:IProject[] = [
         image_path:'/images/nexter-web.png',
         deployed_url:'https://ogalvezg.github.io/nexter-web/',
         github_url:'https://github.com/ogalvezg/nexter-web/tree/master',
-        category: ['Front-end'],
+        category: ['Front-End'],
         key_techs: ['Sass', 'CSS Grid'],
     },
     {
@@ -209,13 +201,13 @@ export const projects:IProject[] = [
         key_techs: ['Tableau', 'SQL'],
     },
     {
-        name:'Nexter Real Estate Webrider202',
-        description:'Mockup webpage of a Real Estate Company created with CSS Grid',
-        image_path:'/images/nexter-web.png',
-        deployed_url:'https://ogalvezg.github.io/nexter-web/',
-        github_url:'https://github.com/ogalvezg/nexter-web/tree/master',
-        category: ['Front-end'],
-        key_techs: ['Sass', 'CSS Grid'],
+        name:'Natours',
+        description:'Website creating using Sass',
+        image_path:'/images/natours.png',
+        deployed_url:'https://ogalvezg.github.io/Natours/#',
+        github_url:'https://github.com/ogalvezg/Natours',
+        category: ['Front-End'],
+        key_techs: ['HTML', 'Sass'],
     },
     {
         name:'NHL Records App',

@@ -112,7 +112,7 @@ export const tools: ISkill[] = [
 export const projects:IProject[] = [
     {
         name:'Omnifood-Muckup',
-        description:' This  is a landing page for a food delivery service',
+        description:'Landing page for a food delivery service',
         image_path:'/images/omnifood-muckup.png',
         deployed_url:'https://ogalvezg.github.io/omnifood-muckup/',
         github_url:'https://github.com/ogalvezg/omnifood-muckup',
@@ -126,11 +126,11 @@ export const projects:IProject[] = [
         deployed_url:'https://ibantattoo.com/',
         github_url:'https://github.com/ogalvezg/IbanTattoo',
         category: ['Front-End'],
-        key_techs: ['HTML', 'CSS Grid', 'JS'],
+        key_techs: ['HTML', 'Flexbox', 'CSS Grid', 'JS'],
     },
     {
         name:'Real Estate Landing Page',
-        description:'Mockup webpage of a Real Estate Company created with CSS Grid',
+        description:'Nexter-Mockup webpage of a Real Estate Company created with CSS Grid',
         image_path:'/images/nexter-web.png',
         deployed_url:'https://ogalvezg.github.io/nexter-web/',
         github_url:'https://github.com/ogalvezg/nexter-web/tree/master',
@@ -157,7 +157,7 @@ export const projects:IProject[] = [
     },
     {
         name:'Cryptocurrency Tracker',
-        description:' Crypto Tracker App made with React using Next.js and CSS Flexbox. Just for tablets and desktop version.',
+        description:' Crypto Tracker App made with React using Next.js and CoinGecko API. Just for tablets and desktop version.',
         image_path:'/images/crypto-tracker.png',
         deployed_url:'https://crypto-tracker-gray-one.vercel.app/',
         github_url:'https://github.com/ogalvezg/crypto-tracker',
@@ -174,13 +174,13 @@ export const projects:IProject[] = [
         key_techs: ['Python', 'Flask', 'PostgreSQL'],
     },
     {
-        name:'Nexter Real Estate Web',
-        description:'Mockup webpage of a Real Estate Company created with CSS Grid',
-        image_path:'/images/nexter-web.png',
-        deployed_url:'https://ogalvezg.github.io/nexter-web/',
-        github_url:'https://github.com/ogalvezg/nexter-web/tree/master',
-        category: ['Front-End'],
-        key_techs: ['Sass', 'CSS Grid'],
+        name:'Company Salary Report',
+        description:'Dashbord Report created on Tableau and MySQL',
+        image_path:'/images/salary-report.png',
+        deployed_url:'https://ogalvezg.github.io/report-salaries/',
+        github_url:'https://github.com/ogalvezg/report-salaries',
+        category: ['Data Analysis'],
+        key_techs: ['Tableau', 'MySQL'],
     },
     {
         name:'NHL Records App',

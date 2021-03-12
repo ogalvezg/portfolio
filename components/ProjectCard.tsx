@@ -25,7 +25,7 @@ const ProjectCard:FunctionComponent<{
             <p className='my-2 text-center'>{name}</p>
 
             { showDetail && (
-                <div className='absolute left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 top-48 bot md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'>
+                <div className='absolute left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 top-24 bot md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'>
                     <div>
                         <img src={image_path} alt={name} />
 

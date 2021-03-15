@@ -2,6 +2,7 @@ import { FunctionComponent, useState } from 'react'
 import { AiFillGithub, AiFillProject } from 'react-icons/ai'
 import { MdClose } from 'react-icons/md'
 import { IProject } from '../types'
+import Image from 'next/image'
 
 const ProjectCard:FunctionComponent<{
     project:IProject
@@ -21,13 +22,29 @@ const ProjectCard:FunctionComponent<{
       
     return (
         <div>
-            <img src={image_path} alt={name} className='cursor-pointer' onClick={()=>setShowDetail(true)} />
+            <Image 
+                src={image_path} 
+                alt={name} 
+                className='cursor-pointer' 
+                onClick={()=>setShowDetail(true)} 
+                width='600'
+                height='300'
+                layout='responsive'
+                quality='100'
+            />
             <p className='my-2 text-center'>{name}</p>
 
             { showDetail && (
                 <div className='absolute left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 top-24 bot md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'>
                     <div>
-                        <img src={image_path} alt={name} />
+                        <Image 
+                            src={image_path} 
+                            alt={name} 
+                            width='600'
+                            height='300'
+                            layout='responsive'
+                            quality='100'
+                        />
 
                         <div className='flex justify-center my-4 space-x-3'>
                             <a href={github_url} 

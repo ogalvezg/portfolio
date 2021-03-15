@@ -210,7 +210,7 @@ export const projects:IProject[] = [
         key_techs: ['HTML', 'Sass'],
     },
     {
-        name:'NHL Records App',
+        name:'Record App',
         description:'Multipage App created with Python, using Streamlit, Pandas and Matplotlib libraries.',
         image_path:'/images/nhl-app.png',
         deployed_url:'https://share.streamlit.io/ogalvezg/records-nhl/main/main.py',

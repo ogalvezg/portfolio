@@ -4,6 +4,7 @@ import {FiGlobe} from 'react-icons/fi'
 import {GoLocation} from 'react-icons/go'
 import {GiTie} from 'react-icons/gi'
 import {useTheme} from 'next-themes'
+//import Image from 'next/image'
 
 const Sidebar = () => {
 
@@ -15,8 +16,14 @@ const Sidebar = () => {
 
     return (
         <div>
-            <img src="" alt="user avatar"
-                className="w-32 h-32 mx-auto rounded-full"
+            <img
+                src="" 
+                alt="user avatar"
+                className="mx-auto rounded-full"
+                height='128px'
+                width='128'
+                layout='intrinsic'
+                quality='100'
             />
         
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">

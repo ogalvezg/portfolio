@@ -17,24 +17,24 @@ export const services:IService[] = [
         about: 'Implemented websites from concept to deployment with a mobile first approach'
     },
     {
-        Icon: FaDatabase,
-        title: 'Data Analysis',
-        about: 'Ad hoc reporting, creating autonomous reports using real-time data for supporting business decision making',
+        Icon: BsClipboardData,
+        title: 'SEO Optimization',
+        about: 'Improving the quality of the website for improving the performance business decision making.'
     },
     {
-        Icon: BsClipboardData,
-        title: 'Business Intelligence',
-        about: 'Analysis of Data to get the best out of your business and helping to improve the results'
+        Icon: FaDatabase,
+        title: 'Database Design & DBA ',
+        about: 'Data Modeling, Database Creation and Maintenance. Optimizing tables and schemas for better performance and scalability.',
     },
     {
         Icon: FcComboChart,
         title:'Data Analysis',
-        about:'From concept to deployment with a mobile first approach. Lorem  projects.',
+        about:'Analysis of Data to get the best out of your business and helping to improve the results.',
     },
     {
         Icon: GiHistogram,
         title: 'Business Intelligence',
-        about: 'Analysis of Data to get the best out of your business and helping to improve the results'
+        about: 'Ad hoc reporting, creating autonomous reports using real-time data for supporting business decision making.'
     },
 ]
 
@@ -210,12 +210,12 @@ export const projects:IProject[] = [
         key_techs: ['HTML', 'Sass'],
     },
     {
-        name:'Record App',
-        description:'Multipage App created with Python, using Streamlit, Pandas and Matplotlib libraries.',
-        image_path:'/images/nhl-app.png',
+        name:'My Portfolio',
+        description:'Portafolio Website created with React, Next.js and Tailwind CSS.',
+        image_path:'/images/portfolio.png',
         deployed_url:'https://share.streamlit.io/ogalvezg/records-nhl/main/main.py',
-        github_url:'https://github.com/ogalvezg/records-nhl',
-        category: ['Data Analysis'],
-        key_techs: ['CSS Grid', 'Sass'],
+        github_url:'https://github.com/ogalvezg/portfolio',
+        category: ['React'],
+        key_techs: ['Next.js', 'Tailwind'],
     },
 ]

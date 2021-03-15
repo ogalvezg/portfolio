@@ -4,7 +4,7 @@ import {FiGlobe} from 'react-icons/fi'
 import {GoLocation} from 'react-icons/go'
 import {GiTie} from 'react-icons/gi'
 import {useTheme} from 'next-themes'
-//import Image from 'next/image'
+import Image from 'next/image'
 
 const Sidebar = () => {
 
@@ -16,12 +16,12 @@ const Sidebar = () => {
 
     return (
         <div>
-            <img
-                src="" 
+            <Image
+                src="/images/avatar-1.png" 
                 alt="user avatar"
                 className="mx-auto rounded-full"
                 height='128px'
-                width='128'
+                width='128px'
                 layout='intrinsic'
                 quality='100'
             />
@@ -30,7 +30,7 @@ const Sidebar = () => {
                 <span className="text-green">Omar</span> Galvez
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-                Junior Front-End, <br /> Data Analyst & BI
+                Front-End Dev, <br /> Data Analyst & BI
             </p>
             <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 <GiTie className="w-6 h-6" /> Download Resume
@@ -57,7 +57,7 @@ const Sidebar = () => {
                     <span>Berlin, DE</span>
                 </div>
                 <p className="my-2">itsomargalvez@gmail.com</p>
-                <p className="my-2">Tel: optional</p>
+                { /*<p className="my-2">Tel: optional</p>*/ }
             </div>
             {/* Email Button */}
             <button 

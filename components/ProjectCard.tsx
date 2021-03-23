@@ -5,7 +5,9 @@ import { IProject } from '../types'
 import Image from 'next/image'
 
 const ProjectCard:FunctionComponent<{
-    project:IProject
+    project:IProject;
+    showDetail:null | number,
+    setShowDetail:(id:null | number)=>void
 }> = ({
     project: {
         name,
@@ -15,18 +17,19 @@ const ProjectCard:FunctionComponent<{
         github_url,
         category,
         key_techs,
+        id,
     },
+    showDetail,
+    setShowDetail,
 }) => {
-
-    const [showDetail, setShowDetail] = useState(false);  
-      
+       
     return (
         <div>
             <Image 
                 src={image_path} 
                 alt={name} 
                 className='cursor-pointer' 
-                onClick={()=>setShowDetail(true)} 
+                onClick={()=>setShowDetail(id)} 
                 width='600'
                 height='300'
                 layout='responsive'
@@ -34,9 +37,9 @@ const ProjectCard:FunctionComponent<{
             />
             <p className='my-2 text-center'>{name}</p>
 
-            { showDetail && (
-                <div className='absolute left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 top-24 bot md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'>
-                    <div>
+            { showDetail === id && (
+                <div className='absolute left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 top-24 bot md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100'>
+                    <div className='border-4 border-gray-100'>
                         <Image 
                             src={image_path} 
                             alt={name} 
@@ -74,7 +77,7 @@ const ProjectCard:FunctionComponent<{
                         </div> 
                     </div>
 
-                    <button onClick={()=>setShowDetail(false)}
+                    <button onClick={()=>setShowDetail(null)}
                         className='absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200'
                     >
                         <MdClose size={30} />

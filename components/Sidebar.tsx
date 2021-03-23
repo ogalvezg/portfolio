@@ -68,7 +68,7 @@ const Sidebar = () => {
             <button 
                 onClick={changeTheme}
                 className="w-9/12 px-4 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400">
-                Toggle Theme
+                Toggle UI
             </button>
         </div>
     )

@@ -111,6 +111,7 @@ export const tools: ISkill[] = [
 ]
 export const projects:IProject[] = [
     {
+        id:1,
         name:'Omnifood-Muckup',
         description:'Landing page for a food delivery service',
         image_path:'/images/omnifood-muckup.png',
@@ -120,6 +121,7 @@ export const projects:IProject[] = [
         key_techs: ['HTML', 'CSS', 'JS', 'Jquery'],
     },
     {
+        id:2,
         name:'Iban Maya Tattoo',
         description:'Website creating using CSS Grid and Flexbox',
         image_path:'/images/iban-maya.png',
@@ -129,6 +131,7 @@ export const projects:IProject[] = [
         key_techs: ['HTML', 'Flexbox', 'CSS Grid', 'JS'],
     },
     {
+        id:3,
         name:'Real Estate Landing Page',
         description:'Nexter-Mockup webpage of a Real Estate Company created with CSS Grid',
         image_path:'/images/nexter-web.png',
@@ -138,6 +141,7 @@ export const projects:IProject[] = [
         key_techs: ['Sass', 'CSS Grid'],
     },
     {
+        id:4,
         name:'Startup Expansion Analytics',
         description:'Interactive dashboard created using cross-database joins and Regression Modeling with Clustering.',
         image_path:'/images/startup-expansion.png',
@@ -147,6 +151,7 @@ export const projects:IProject[] = [
         key_techs: ['Tableau', 'MySQL', 'Google Sheets'],
     },
     {
+        id:5,
         name:'Ticker Data App',
         description:'Stock Price App for the S&P 500 Index. Created with Python using Streamlit, Pandas, Yahoo Finance and Cufflinks libraries.',
         image_path:'/images/ticker-data.png',
@@ -156,6 +161,7 @@ export const projects:IProject[] = [
         key_techs: ['Python', 'Google Sheets'],
     },
     {
+        id:6,
         name:'Cryptocurrency Tracker',
         description:' Crypto Tracker App made with React using Next.js and CoinGecko API. Just for tablets and desktop version.',
         image_path:'/images/crypto-tracker.png',
@@ -165,6 +171,7 @@ export const projects:IProject[] = [
         key_techs: ['React', 'Next.js']
     },
     {
+        id:7,
         name:'Survey App',
         description:'Simple Survey App created with Python using Flask, PostgreSQL and Mailtrap',
         image_path:'/images/review-app.png',
@@ -174,6 +181,7 @@ export const projects:IProject[] = [
         key_techs: ['Python', 'Flask', 'PostgreSQL'],
     },
     {
+        id:8,
         name:'Company Salary Report',
         description:'Dashbord Report created on Tableau and MySQL',
         image_path:'/images/salary-report.png',
@@ -183,6 +191,7 @@ export const projects:IProject[] = [
         key_techs: ['Tableau', 'MySQL'],
     },
     {
+        id:9,
         name:'NHL Records App',
         description:'Multipage App created with Python, using Streamlit, Pandas and Matplotlib libraries.',
         image_path:'/images/nhl-app.png',
@@ -192,6 +201,7 @@ export const projects:IProject[] = [
         key_techs: ['Python', 'Pandas', 'Streamlit', 'Matplotlib'],
     },
     {
+        id:10,
         name:'Bank Data Segmentation',
         description:'A Business Analysis using a Storyline created with a serie of dashboards reporting',
         image_path:'/images/bank-report.png',
@@ -201,6 +211,7 @@ export const projects:IProject[] = [
         key_techs: ['Tableau', 'SQL'],
     },
     {
+        id:11,
         name:'Natours',
         description:'Website creating using Sass',
         image_path:'/images/natours.png',
@@ -210,12 +221,13 @@ export const projects:IProject[] = [
         key_techs: ['HTML', 'Sass'],
     },
     {
+        id:12,
         name:'My Portfolio',
         description:'Portafolio Website created with React, Next.js and Tailwind CSS.',
         image_path:'/images/portfolio.png',
-        deployed_url:'https://share.streamlit.io/ogalvezg/records-nhl/main/main.py',
+        deployed_url:'https://myportfolio-gray.vercel.app/projects',
         github_url:'https://github.com/ogalvezg/portfolio',
         category: ['React'],
         key_techs: ['Next.js', 'Tailwind'],
     },
-]
+];

@@ -8,18 +8,18 @@ import {GiHistogram} from 'react-icons/gi'
 export const services:IService[] = [
     {
         Icon: RiComputerLine,
-        title: 'Frontend Development',
-        about: 'I can build beautiful and scalable SPA using <b> HTML</b>, <b>CSS</b> and <b>React.js</b>'
+        title: 'Front-End Developer',
+        about: 'Creating websites, mobile applications and landing pages from planning, implementing deploying and maintenance.'
     },
     {
         Icon: FcSmartphoneTablet,
-        title: 'Frontend Development',
-        about: 'Implemented websites from concept to deployment with a mobile first approach'
+        title: 'Web Designer',
+        about: 'Designing websites, with a user-friendly design from concept to deployment with a mobile first approach.'
     },
     {
         Icon: BsClipboardData,
         title: 'SEO Optimization',
-        about: 'Improving the quality of the website for improving the performance business decision making.'
+        about: 'Improving the performance of the website, identify and search for potential issues for a better conversion rate.'
     },
     {
         Icon: FaDatabase,

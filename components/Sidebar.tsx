@@ -30,7 +30,7 @@ const Sidebar = () => {
                 <span className="text-green">Omar</span> Galvez
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
-                Front-End Dev, <br /> Data Analyst & BI
+            Data Analyst, BI <br /> & Front-End Dev 
             </p>
             <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 <GiTie className="w-6 h-6" /> Download Resume

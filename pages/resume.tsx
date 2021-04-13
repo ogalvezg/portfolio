@@ -25,12 +25,12 @@ const resume = () => {
                     <h5 className='my-3 text-2xl font-bold'>Experience</h5>
                     <div>
                         <h5 className='my-2 text-xl font-semibold'>Co-Founder and COO</h5>
-                        <p className='font-semibold'>LatinMex Global (2016 - 2019)</p>
-                        <p className='my-3'>organizational mastermind who not only keeps the machine working but running.</p>
+                        <p className='font-semibold'>LatinMex Global (2016 - Feb 2020)</p>
+                        <p className='my-3'>Distributor and marketer of organic products.</p>
                     </div>
                     <div>
                         <h5 className='my-2 text-xl font-semibold'>Accounts Manager</h5>
-                        <p className='font-semibold'>Exa Express Inc. (2015 - 2017)</p>
+                        <p className='font-semibold'>Cuervo Promotions (2015 - 2017)</p>
                         <p className='my-3'>organizational mastermind who not only keeps the machine working but running.</p>
                     </div>
                     <div>

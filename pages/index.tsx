@@ -7,10 +7,12 @@ const index = () => {
   	return (
     	<div className='flex flex-col flex-grow px-6 pt-1'>
 			<h5 className='my-3 font-medium'>
-				I'm actually studing Python for Data Science and Machine Lerning.
-				I have 3+ years of experience processing and managing data using SQL.
-				I'm as well a junior frontend developer. <br />
-				I'm a self-motivated, organize and commited individual. As well I'm team oriented person with a good understanding of Agile concepts.
+			I’m open to job opportunities to join a motivated team as a data analyst. 
+			Throughout my earlier career, I held several positions that required data processing and analysis. 
+			After being made redundant at the beginning of the pandemic in 2020, I decided to reaffirm my passion for data analysis and took the opportunity to upskill and refresh my knowledge.
+			<br />
+			During the past year, I’ve taken various online courses including Python for data science, machine learning, advanced SQL and data visualization with Tableau. 
+			I’m also a self-taught front-end developer and I’m working on various website projects in my spare time.
 			</h5>
 			<div className='p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{marginLeft:'-1.5rem', marginRight:'-1.5rem'}}>
 				<h6 className='my-3 text-xl font-bold tracking-wide'>My Skills</h6>

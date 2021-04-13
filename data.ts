@@ -7,34 +7,34 @@ import {GiHistogram} from 'react-icons/gi'
 
 export const services:IService[] = [
     {
-        Icon: RiComputerLine,
-        title: 'Front-End Developer',
-        about: 'Creating websites, mobile applications and landing pages from planning, implementing deploying and maintenance.'
-    },
-    {
-        Icon: FcSmartphoneTablet,
-        title: 'Web Designer',
-        about: 'Designing websites, with a user-friendly design from concept to deployment with a mobile first approach.'
-    },
-    {
-        Icon: BsClipboardData,
-        title: 'SEO Optimization',
-        about: 'Improving the performance of the website, identify and search for potential issues for a better conversion rate.'
-    },
-    {
         Icon: FaDatabase,
         title: 'Database Design & DBA ',
-        about: 'Data Modeling, Database Creation and Maintenance. Optimizing tables and schemas for better performance and scalability.',
+        about: 'Data modeling, database creation and maintenance. Optimizing tables and schemas for better performance and scalability.',
     },
     {
         Icon: FcComboChart,
         title:'Data Analysis',
-        about:'Analysis of Data to get the best out of your business and helping to improve the results.',
+        about:'Analysis of datasets in order to influence business decisions, improve results and increase team success.',
     },
     {
         Icon: GiHistogram,
         title: 'Business Intelligence',
-        about: 'Ad hoc reporting, creating autonomous reports using real-time data for supporting business decision making.'
+        about: 'Ad hoc reporting, creating autonomous reports using real-time data to support business decision-making.'
+    },
+    {
+        Icon: RiComputerLine,
+        title: 'Front-End Developer',
+        about: 'Creating websites, mobile applications and landing pages from concept and planning to implementation, deployment and maintenance.'
+    },
+    {
+        Icon: FcSmartphoneTablet,
+        title: 'Web Designer',
+        about: 'Designing user-friendly websites with a focus on mobile responsiveness and best practices in UI and code structure.'
+    },
+    {
+        Icon: BsClipboardData,
+        title: 'SEO Optimization',
+        about: 'Improving the performance of websites for search engines and identifying potential issues to increase traffic and conversion rates.'
     },
 ]
 
@@ -56,7 +56,7 @@ export const languages: ISkill[] = [
     },
     {
         name: 'Python',
-        level: '60%',
+        level: '50%',
         Icon: BsCircleFill
     },
     {
@@ -66,12 +66,12 @@ export const languages: ISkill[] = [
     },
     {
         name: 'SQL',
-        level: '80%',
+        level: '70%',
         Icon: BsCircleFill
     },
     {
         name: 'Bootstrap',
-        level: '70%',
+        level: '75%',
         Icon: BsCircleFill
     },
 ]
@@ -88,24 +88,29 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill
     },
     {
+        name: 'Amazon RDS',
+        level: '60%',
+        Icon: BsCircleFill
+    },
+    {
         name: 'Anaconda',
         level: '60%',
         Icon: BsCircleFill
     },
     {
         name: 'Figma',
-        level: '80%',
+        level: '55%',
         Icon: BsCircleFill
     },
    
     {
         name: 'PostgreSQL',
-        level: '50%',
+        level: '65%',
         Icon: BsCircleFill
     },
     {
-        name: 'Scrum',
-        level: '80%',
+        name: 'Jira',
+        level: '50%',
         Icon: BsCircleFill
     },
 ]

@@ -37,7 +37,7 @@ const Sidebar = () => {
             </a>
             {/* social icons */}
             <div className="flex justify-around mx-auto my-5 text-green md:w-full">
-                <a href="https://github.com/ogalvezg">
+                <a href="https://cuervo-digital.com/">
                     <FiGlobe className="w-8 h-8 cursor-pointer" />
                 </a>
                 <a href="https://github.com/ogalvezg">

@@ -9,8 +9,12 @@ const resume = () => {
                 <div>
                     <h5 className='my-3 text-lg font-bold underline'>Education</h5>
                     <div>
+                        <h4 className='text-lg font-semibold'>Web Developer Bootcamp</h4>
+                        <p className='mb-4 font-light'>Zero To Mastery Academy (2021)</p>
+                    </div>
+                    <div>
                         <h4 className='text-lg font-semibold'>Tableau for Business Analytics & Marketing</h4>
-                        <p className='mb-4 font-light'>SuperDataScience (2020)</p>
+                        <p className='mb-4 font-light'>SuperDataScience (2021)</p>
                     </div>
                     <div>
                         <h4 className='text-lg font-semibold'>Course in Digital Marketing</h4>
@@ -30,17 +34,17 @@ const resume = () => {
                     <div>
                         <h5 className='text-lg font-semibold'>Co-Founder and COO</h5>
                         <p className='font-semibold'>LatinMex Global (2016 - Feb 2020)</p>
-                        <p className='mb-4 font-light'> I was in charge of overseeing the day-to-day administrative and operational functions as well as the market research.</p>
+                        <p className='mb-4 font-light'> In charge of overseeing the day-to-day administrative and operational functions as well as the market research analyst.</p>
                     </div>
                     <div>
-                        <h5 className='text-lg font-semibold'>Accounts Manager</h5>
+                        <h5 className='text-lg font-semibold'>SEO Manager</h5>
                         <p className='font-semibold'>Cuervo Promotions (2015 - 2017)</p>
-                        <p className='mb-4 font-light'>organizational mastermind who not only keeps the machine working but running.</p>
+                        <p className='mb-4 font-light'>SEO optimisation of the website (Wordpress), keyword research and analysis, market research and competitive analysis.</p>
                     </div>
                     <div>
                         <h5 className='text-lg font-semibold'>Re-branding Task Force</h5>
                         <p className='font-semibold'>Wimdu GmbH (2014)</p>
-                        <p className='mb-4 font-light'>organizational mastermind who not only keeps the machine working but running.</p>
+                        <p className='mb-4 font-light'>Account management for London, Barcelona & Majorca. Recruit photographers, arrange photoshoots, customer care (Zendesk).</p>
                     </div>
                 </div>
             </div>

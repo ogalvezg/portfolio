@@ -61,7 +61,7 @@ export const languages: ISkill[] = [
     },
     {
         name: 'React',
-        level: '50%',
+        level: '40%',
         Icon: BsCircleFill
     },
     {
@@ -79,22 +79,22 @@ export const languages: ISkill[] = [
 export const tools: ISkill[] = [
     {
         name: 'MySQL',
-        level: '80%',
-        Icon: BsCircleFill
-    },
-    {
-        name: 'Tableau',
         level: '70%',
         Icon: BsCircleFill
     },
     {
+        name: 'Tableau',
+        level: '65%',
+        Icon: BsCircleFill
+    },
+    {
         name: 'Amazon RDS',
-        level: '60%',
+        level: '50%',
         Icon: BsCircleFill
     },
     {
         name: 'Anaconda',
-        level: '60%',
+        level: '50%',
         Icon: BsCircleFill
     },
     {
@@ -105,7 +105,7 @@ export const tools: ISkill[] = [
    
     {
         name: 'PostgreSQL',
-        level: '65%',
+        level: '60%',
         Icon: BsCircleFill
     },
     {

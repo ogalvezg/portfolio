@@ -29,12 +29,12 @@ const Sidebar = () => {
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-green">Omar</span> Galvez
             </h3>
-            <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
+            <p className="px-2 py-1 bg-gray-200 rounded-full my-9 dark:bg-dark-200">
             Data Analyst, BI <br /> & Front-End Dev 
             </p>
-            <a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
+            {/*<a className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200">
                 <GiTie className="w-6 h-6" /> Download Resume
-            </a>
+            </a>*/}
             {/* social icons */}
             <div className="flex justify-around mx-auto my-5 text-green md:w-full">
                 <a href="https://cuervo-digital.com/">
@@ -50,7 +50,7 @@ const Sidebar = () => {
 
             {/* address */}
             <div 
-                className="py-4 m-5 bg-gray-200 dark:bg-dark-200"
+                className="py-4 bg-gray-200 m-9 dark:bg-dark-200"
                 style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
                 <div className="flex items-center justify-center space-x-2">
                     <GoLocation />

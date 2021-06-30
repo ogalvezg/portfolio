@@ -98,7 +98,7 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill
     },
     {
-        name: 'Figma',
+        name: 'Google Data Studio',
         level: '55%',
         Icon: BsCircleFill
     },
@@ -109,7 +109,7 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill
     },
     {
-        name: 'Jira',
+        name: 'BigQuery',
         level: '50%',
         Icon: BsCircleFill
     },

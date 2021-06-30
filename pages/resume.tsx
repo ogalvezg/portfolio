@@ -22,7 +22,7 @@ const resume = () => {
                     </div>
                     <div>
                         <h5 className='text-lg font-semibold'>MBA & Ecommerce</h5>
-                        <p className='mb-4 font-light'>U. Villanueva & U. Complutense, Madrid (2005)</p>
+                        <p className='mb-4 font-light'>U. Villanueva & U. Complutense, Madrid (2004)</p>
                     </div>
                     <div>
                         <h5 className='text-lg font-semibold'>BA degree in International Business</h5>
@@ -32,9 +32,9 @@ const resume = () => {
                 <div>
                     <h5 className='my-3 text-lg font-bold underline'>Experience</h5>
                     <div>
-                        <h5 className='text-lg font-semibold'>Co-Founder and COO</h5>
-                        <p className='font-semibold'>LatinMex Global (2016 - Feb 2020)</p>
-                        <p className='mb-4 font-light'> In charge of overseeing the day-to-day administrative and operational functions as well as the market research analyst.</p>
+                        <h5 className='text-lg font-semibold'>Co-Founder and Marketing Manager</h5>
+                        <p className='font-semibold'>LatinMex Global (2016 - March 2020)</p>
+                        <p className='mb-4 font-light'> In charge of marketing strategy, the day-to-day administrative and operational functions as well as the market research analyst.</p>
                     </div>
                     <div>
                         <h5 className='text-lg font-semibold'>SEO Manager</h5>

@@ -11,7 +11,7 @@ const index = () => {
 			Throughout my earlier career, I held several positions that required data processing and analysis. 
 			After being made redundant at the beginning of the pandemic in 2020, I decided to reaffirm my passion for data analysis and took the opportunity to upskill and refresh my knowledge.
 			<br />
-			During the past year, I’ve taken various online courses including Python for data science, machine learning, advanced SQL and data visualization with Tableau. 
+			During the past year, I’ve taken various online courses including Python for data science, machine learning, advanced SQL, data visualization with Tableau and SAP Analytics Cloud. 
 			I’m also a self-taught front-end developer and I’m working on various website projects in my spare time.
 			</h5>
 			<div className='p-4 mt-5 bg-gray-400 dark:bg-dark-100' style={{marginLeft:'-1.5rem', marginRight:'-1.5rem'}}>

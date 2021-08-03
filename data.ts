@@ -98,8 +98,8 @@ export const tools: ISkill[] = [
         Icon: BsCircleFill
     },
     {
-        name: 'Google Data Studio',
-        level: '55%',
+        name: 'SAP Analytics Cloud',
+        level: '50%',
         Icon: BsCircleFill
     },
    
@@ -110,7 +110,7 @@ export const tools: ISkill[] = [
     },
     {
         name: 'BigQuery',
-        level: '50%',
+        level: '60%',
         Icon: BsCircleFill
     },
 ]
@@ -234,5 +234,15 @@ export const projects:IProject[] = [
         github_url:'https://github.com/ogalvezg/portfolio',
         category: ['React'],
         key_techs: ['Next.js', 'Tailwind'],
+    },
+    {
+    id:13,
+        name:'Sales Overview',
+        description:'Dashboard report. Created with SAP Analytics Cloud and Google Sheets, exported as a PDF file.',
+        image_path:'/images/sap-acme.png',
+        deployed_url:'https://github.com/ogalvezg/sap-acme/blob/main/Management-Dashboard.pdf',
+        github_url:'https://github.com/ogalvezg/sap-acme',
+        category: ['Data Analysis'],
+        key_techs: ['SAP Analytics Cloud', 'Google Sheets'],
     },
 ];
